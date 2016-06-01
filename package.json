@@ -1,7 +1,8 @@
 {
-  "name": "first-express-app",
-  "description": "a fine piece of express art",
+  "name": "time-stamp-microservice-tool",
+  "description": "A Free Code Camp Back End project using Node and Express",
   "version": "0.0.1",
+  "main": "app.js",
   "dependencies": {
     "express": "^4.13.4"
   }
