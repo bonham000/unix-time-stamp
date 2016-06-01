@@ -1,0 +1,101 @@
+body {
+  background: rgb(255, 109, 86);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(15,15,15);
+  font-family: 'Varela', sans-serif;
+  padding: 25px;
+}
+.title {
+	font-size: 55px;
+	font-family: Helvetica;
+	font-family: 'Orbitron', sans-serif;
+	padding: 0;
+	margin: 15px 0 0 0;
+}
+.subtitle {
+	font-size: 20px;
+	padding: 0;
+}
+.main {
+	font-size: 25px;
+	margin: 15px 0 10px 0;
+}
+.top {
+	margin: 15px 0 5px 0;
+}
+.bottom {
+	margin: 5px 0 25px 0;
+}
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: rgb(140, 25, 7);
+    background-color: rgb(220,220,220);
+    border-radius: 6px;
+}
+.instructions {
+	border: 1px solid white;
+	padding: 0 15px 0 15px;
+	color: rgb(255,255,255);
+	background: rgba(15, 15, 15, .75);
+	font-family: Avenir;
+}
+
+.rules {
+	font-size: 25px;
+}
+.list {
+	display: none;
+	font-size: 20px;
+	line-height: 35px;
+}
+.rules a, a:visited {
+	color: rgb(230,230,230);
+}
+.rules a:hover {
+	color: rgb(47, 177, 214);
+}
+.examples {
+	display: none;
+}
+.valid {
+	color: rgb(57, 250, 115);
+}
+.invalid {
+	color: rgb(178, 24, 0);
+}
+.null {
+	font-size: 20px;
+}
+.learn {
+	position: absolute;
+	right: 15px;
+	padding: 0;
+	margin: 5px 25px 0 0;
+	font-size: 18px;	
+}
+.signature {
+	position: absolute;
+	right: 15px;
+	padding: 0;
+	margin: 30px 25px 0 0;
+	font-size: 18px;
+}
+.credits a {
+	color: rgb(0, 111, 200);
+}
+.credits a:hover {
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+

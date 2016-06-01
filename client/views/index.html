@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  
+    <meta charset="UTF-8">
+    <title>Timestamp Microservice</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>      
+    <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="/client/css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1 class="title">Timestamp Microservice —</h1>
+
+  <p class="subtitle main">This service allows you to make a request to a server and view the corresponding natural and Unix time as output.</p>
+
+  <p class="subtitle top">The example input: <code class="code">https://url_example.com/December 10 2015</code></p>
+
+  <p class="subtitle bottom">returns this object: <code class="object">{"unix":"936576000","natural":"September 06, 1999"}</code></p>
+
+  <div class="instructions">
+
+    <p class="rules"><a id="guide" href="#!">You may submit a Unix timestamp or natural date, according to these guidelines:</a></p>
+
+    <ul class="list guidelines">
+      <li>Your query must be a valid natural date of the format MM-DD-YYYY</li>
+      <li>The month may be abbreviated to the first three letters, or written in full</li>
+      <li>You may include or exclude spaces</li>
+    </ul>
+    <p class="rules"> <a id="examplesToggle" href="#!">Examples:</a></p>
+    <ul class="list examples">  
+      <li><span class="valid">Valid:</span> "Sep 04 2016"</li>
+      <li><span class="valid">Valid:</span> "March 29 1999"</li>
+      <li><span class="valid">Valid:</span> "Aug 01 2090"</li>
+      <li><span class="invalid">Invalid:</span> "Sep 4 2016"</li>
+      <li><span class="invalid">Invalid:</span> "Sept 4 2016"</li>
+      <li><span class="invalid">Invalid:</span> "Jan -1 1970"</li>
+    </ul>
+
+    <p class="rules null">Invalid queries will return <code>"null"</code> for both properties.</p>
+
+  </div>
+
+      <p class="credits learn">Learn more about Unix time <a target="_blank" href="https://en.wikipedia.org/wiki/Unix_time">here</a></p>
+
+      <p class="credits signature">Built by <a target="_blank" href="http://sean-smith.me">Sean Smith</a></p>
+
+
+</div>
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="/client/js/index.js"></script>   
+    
+</body>
+
+</html>
