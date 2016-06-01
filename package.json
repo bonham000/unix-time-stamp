@@ -10,7 +10,7 @@
   "dependencies": {
     "express": "^4.13.4"
   },
-  "enines": {
+  "engines": {
     "node": "v4.4.5"
   }
 }
